@@ -55,8 +55,3 @@ Tools     →  STL, standard competitive setup
 
 ---
 
-<div align="center">
-
-*Built with consistency. Improved with every commit.*
-
-</div>
