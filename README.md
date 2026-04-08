@@ -2,6 +2,10 @@
 
 A collection of Data Structures and Algorithms problems solved in C++.
 
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Focus](https://img.shields.io/badge/Focus-DSA-critical)
+
 ## Structure
 
 Problems are organized by topic:
