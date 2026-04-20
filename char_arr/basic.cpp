@@ -13,26 +13,41 @@ using namespace std;
 
 // Length of char;
 
-int get_length(char ch[]){
-    int cnt = 0;
-    for(int i = 0;ch[i]!='\0';i++){
-        cnt++;
-    }
-    return cnt;
+// int get_length(char ch[]){
+//     int cnt = 0;
+//     for(int i = 0;ch[i]!='\0';i++){
+//         cnt++;
+//     }
+//     return cnt;
 
-}
-void reverse_it(char ch[], int len){
-    for(int i = 0;i<len/2;i++){
-        swap(ch[i],ch[len-i-1]);
-    }
-}
+// }
+// void reverse_it(char ch[], int len){
+//     for(int i = 0;i<len/2;i++){
+//         swap(ch[i],ch[len-i-1]);
+//     }
+// }
+
+
+// int main(){
+//     char ch[20];
+//     cin>>ch;
+//     int len = get_length(ch);
+//     reverse_it(ch,len);
+//     cout<<ch<<endl;
+//     return 0;
+// }
+
+#include <bits/stdc++.h>
+using namespace std;
 
 
 int main(){
-    char ch[20];
-    cin>>ch;
-    int len = get_length(ch);
-    reverse_it(ch,len);
-    cout<<ch<<endl;
+    char name[40];
+    cin.getline(name,40);
+
+    for(char ch:name){
+        cout<<ch<<" ";
+    }
+
     return 0;
 }
